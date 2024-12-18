@@ -1,0 +1,125 @@
+.logo > img {
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c0c0c0;
+}
+
+.list-items {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 20%;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.cards {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px; /* Set a fixed width for each card */
+  box-sizing: border-box; /* Ensures padding and border don't affect width */
+  text-align: center; /* Center align text inside the card */
+  border-radius: 5%;
+}
+
+.cards-img {
+  width: 100%; /* Ensures the image fills the card */
+  height: 200px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensures the image scales correctly */
+}
+
+.cuisines-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-container {
+  margin-top: 50px;
+}
+
+.footer-list > li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+.footer-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-container {
+  background-color: #c0c0c0;
+}
+
+.top-rated-res-btn {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: cornsilk;
+  cursor: pointer;
+}
+
+.skimmer-card-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.skimmer-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 300px; /* Set a fixed width for each card */
+  height: 500px;
+  box-sizing: border-box; /* Ensures padding and border don't affect width */
+  text-align: center; /* Center align text inside the card */
+}
+
+.skimmer-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+}
+
+.skimmer-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
+  background-color: #f0f0f0;
+}
+
+.skimmer-list-items {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20%;
+  background-color: #f0f0f0;
+}
+
+.search-bar{
+    margin-left: 20px;
+}
+
+.search-btn{
+    margin-left: 20px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}

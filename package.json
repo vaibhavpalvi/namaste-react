@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Food APp",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start":"parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhavpalvi/namaste-react.git"
+  },
+  "keywords": [
+    "vaibhav"
+  ],
+  "author": "vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibhavpalvi/namaste-react/issues"
+  },
+  "homepage": "https://github.com/vaibhavpalvi/namaste-react#readme",
+  "dependencies": {
+    "parcel": "^2.13.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
