@@ -1,20 +1,27 @@
 import React from "react";
 import { LOGO_URL } from "./utils/constants";
+import { Link } from "react-router-dom";
 
 export default NavBar = () => {
   return (
-    <div className="nav-bar">
-      <div className="logo">
+    <div className="flex justify-between bg-pink-200">
+      <div className="w-20">
         <img src={LOGO_URL} alt="logo" />
       </div>
-      <div className="list-container">
-        <div className="list">
-          <button className="list-items">Home</button>
-          <button className="list-items">About Us</button>
-          <button className="list-items">Contact</button>
-          <button className="list-items">Cart</button>
-        </div>
-      </div>
+      <ul className="flex items-center">
+        <li className="px-10">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="px-10">
+          <Link to="/about-us">About Us</Link>
+        </li>
+        <li className="px-10">
+          <Link to="/contact-us">Contact</Link>
+        </li>
+        <li className="px-10">
+          <Link to="/home">Cart</Link>
+        </li>
+      </ul>
     </div>
   );
 };

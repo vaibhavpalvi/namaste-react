@@ -1,44 +1,20 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
 import Restaurant from "./Restaurant";
 import Skimmer from "./Skimmer";
-import { SWIGGY_FETCH_RES_UR } from "./utils/constants";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import useResData from "./utils/useResData";
 
 export default Body = () => {
-  const [resData, setResData] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [filterData, setFilterData] = useState([]);
 
+  const { resData, isLoading } = useResData();
+
   useEffect(() => {
-    fetchData();
-  }, []);
-
-  const fetchData = async () => {
-    const data = await fetch(SWIGGY_FETCH_RES_UR);
-
-    const jsonData = await data?.json();
-
-    const resDataFromApi =
-      jsonData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants;
-
-    const resDataFromApiWithDiffCardsArrayVal =
-      jsonData?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants;
-
-    setResData(
-      resDataFromApi === undefined
-        ? resDataFromApiWithDiffCardsArrayVal
-        : resDataFromApi
-    );
-
-    setFilterData(
-      resDataFromApi === undefined
-        ? resDataFromApiWithDiffCardsArrayVal
-        : resDataFromApi
-    );
-  };
+    if (!isLoading) {
+      setFilterData(resData);
+    }
+  }, [isLoading, resData]);
 
   const handleTopRatedBtnEvent = () => {
     const filterResData = resData.filter((res) => res.info.avgRating > 4);
@@ -60,41 +36,50 @@ export default Body = () => {
     setFilterData(filterData);
   };
 
-  return resData === undefined || resData.length === 0 ? (
+  return filterData === undefined || filterData.length === 0 ? (
     <Skimmer />
   ) : (
     <>
-      <Navbar />
-      <button className="top-rated-res-btn" onClick={handleTopRatedBtnEvent}>
+      <button
+        className="bg-yellow-100 my-5 mx-5 rounded-lg border-2 p-1"
+        onClick={handleTopRatedBtnEvent}
+      >
         Top rated restaurants
       </button>
-      <button className="top-rated-res-btn" onClick={handleClearFilterBtnEvent}>
+      <button
+        className="bg-red-300 my-10 mx-5 rounded-lg border-2 p-1"
+        onClick={handleClearFilterBtnEvent}
+      >
         Clear filters
       </button>
       <input
         type="text"
         placeholder="Enter restaurants name"
-        className="search-bar"
+        className="border-2 rounded-lg p-1"
         value={searchText}
         onChange={handleOnChangeEvent}
       />
-      <button className="search-btn" onClick={handleSearchBtnEvent}>
+      <button
+        className="bg-green-300 mx-5 rounded-lg border-2 p-1"
+        onClick={handleSearchBtnEvent}
+      >
         Search
       </button>
-      <div className="card-container">
+      <div className="flex flex-wrap justify-between gap-2">
         {filterData.map((res) => {
           return (
-            <Restaurant
-              name={res.info.name}
-              image={res.info.cloudinaryImageId}
-              cuisines={res.info.cuisines.join(",")}
-              rating={res.info.avgRating}
-              cost={res.info.costForTwo}
-            />
+            <Link to={"/restaurant-menu/" + res.info.id} key={res.info.id}>
+              <Restaurant
+                name={res.info.name}
+                image={res.info.cloudinaryImageId}
+                cuisines={res.info.cuisines.join(",")}
+                rating={res.info.avgRating}
+                cost={res.info.costForTwo}
+              />
+            </Link>
           );
         })}
       </div>
-      <Footer />
     </>
   );
 };
