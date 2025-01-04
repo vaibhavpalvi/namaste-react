@@ -1,0 +1,3730 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Mr. Gurung Momo & Chinese Corner",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "151648",
+              "name": "Mr. Gurung Momo & Chinese Corner",
+              "city": "Chhindwara",
+              "slugs": {
+                "restaurant": "mr-gurung-momo-chinese-corner-khajri-road-chhindwara-city",
+                "city": "chhindwara"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "h7oibtpm7kqks8cqz3gh",
+              "locality": "Teacher's Colony",
+              "areaName": "Mohan Nagar",
+              "costForTwo": "15000",
+              "costForTwoMessage": "₹150 for two",
+              "cuisines": ["Momos", "Chinese"],
+              "avgRating": 4.3,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "151648",
+                "fees": [{}]
+              },
+              "parentId": "140255",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "1.0K+ ratings",
+              "sla": {
+                "restaurantId": "151648",
+                "deliveryTime": 42,
+                "minDeliveryTime": 40,
+                "maxDeliveryTime": 45,
+                "lastMileTravel": 11.8,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                "zoneId": 2218,
+                "slaString": "40-45 MINS",
+                "lastMileTravelString": "11.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-01-04 23:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "20% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "20% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off up to ₹50 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "mr-gurung-momo-chinese-corner-khajri-road-chhindwara-city",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Main Road Priyadarshini Colony Chhindwara Priyadarshini Colony, Madhya Pradesh 480225"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Momos,Chinese"
+                }
+              ],
+              "totalRatings": 1000,
+              "aggregatedDiscountInfoV2": {
+                "header": "20% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "20% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off up to ₹50 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹300 off  | Use code NEWYEARPARTY",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 1399,
+                  "maxValue": 1999,
+                  "priority": 2,
+                  "couponCode": "NEWYEARPARTY",
+                  "discountInfo": {
+                    "discountType": "Flat",
+                    "value": 300
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save ₹300 | Code NEWYEARPARTY",
+                  "unlockedMessage": "NEWYEARPARTY Coupon Unlocked! Use it to save ₹300",
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/151648"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "22.0654685000,78.9370124000",
+              "backgroundImageOverlayInfo": {},
+              "featuredSectionInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "20% OFF UPTO ₹50",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["1a1b5cce-3b2c-4ea5-8c41-3fbea4e4c98e"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE TRYNEW",
+                      "description": "ABOVE ₹159",
+                      "offerType": "offers",
+                      "restId": "151648",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹300 OFF",
+                      "offerTag": "DEFAULT",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["c5d6f7e5-b6fd-426e-af00-e6365cf7d81e"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE NEWYEARPARTY",
+                      "description": "ABOVE ₹1999",
+                      "offerType": "offers",
+                      "restId": "151648",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 15% OFF",
+                      "offerTag": "DEFAULT",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["0b49f99f-8090-4252-aa86-b3fa5e088516"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE ORDER4FAMILY",
+                      "description": "ABOVE ₹699",
+                      "offerType": "offers",
+                      "restId": "151648",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹75 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/c80d2931-d9ec-4188-8687-492f10b60cdf_YESBankMenuLogo2.jpg",
+                      "offerIds": ["9f7c0500-6573-49db-a675-f5d174ef05dd"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "151648",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/c80d2931-d9ec-4188-8687-492f10b60cdf_YESBankMenuLogo2.jpg",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "30% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/4fdc8b84-4e02-494d-9dae-e122b4b56894_AxisMenuLogo.png",
+                      "offerIds": ["d2bffa89-9f8a-4c68-ac78-d0c8afecb1ef"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXIS30",
+                      "description": "ABOVE ₹200",
+                      "offerType": "offers",
+                      "restId": "151648",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/4fdc8b84-4e02-494d-9dae-e122b4b56894_AxisMenuLogo.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        },
+                        "isSelected": true
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954104",
+                              "name": "Fried Gravy Momos ",
+                              "category": "Starters (Chinese)",
+                              "description": "In a pan, add them along with star anise, garlic and ginger. Fry them on a high flame and add sauces of red chilli, green chilli, soya sauce",
+                              "imageId": "falfkqkesmztsxdfi10t",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560418",
+                              "name": "Veg Fried Momos",
+                              "category": "Starters (Chinese)",
+                              "description": "Veg Fried Momos are crispy & delicious deep-fried dumplings made of plain flour stuffed with crunchy & mildly spiced vegetables.",
+                              "imageId": "7bdc9f930cac07923c252cc1cf7229ed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "397 ratings",
+                                  "ratingCountV2": "397"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96968412",
+                              "name": "Fried Chilli Momos ",
+                              "category": "Starters (Chinese)",
+                              "description": "In a pan, add them along with star anise, garlic and ginger. Fry them on a high flame and add sauces of red chilli, green chilli, soya sauce",
+                              "imageId": "kf9bbtt8to6ceel0zyxp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "23 ratings",
+                                  "ratingCountV2": "23"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560420",
+                              "name": "Fry Chilli Butter Momos",
+                              "category": "Starters (Chinese)",
+                              "description": "In a pan, add butter them along with star anise, garlic and ginger. Fry them on a high flame and add sauces of red chilli, green chilli, soya sauce",
+                              "imageId": "wq0dm1ta3wp4c6algxag",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "38 ratings",
+                                  "ratingCountV2": "38"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560417",
+                              "name": "Veg Steam Momos",
+                              "category": "Starters (Chinese)",
+                              "description": "A delicious steamed dumpling stuffed with sauteed mixed vegetables.",
+                              "imageId": "yzl2ybyafchbrhsrzg46",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "423 ratings",
+                                  "ratingCountV2": "423"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560447",
+                              "name": "Veg Manchurian                                           ",
+                              "category": "Starters (Chinese)",
+                              "description": "Deep-fried, assorted veggies tossed in a thik and spicy Manchurian sauce.",
+                              "imageId": "lno2w1usb6yodfeinrf6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "3581317",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "11801761",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 8500,
+                                        "id": "11801762",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "99 ratings",
+                                  "ratingCountV2": "99"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560448",
+                              "name": "Chilli Manchurian",
+                              "category": "Starters (Chinese)",
+                              "description": "Veg Manchurian is an Indian-Chinese appetizer where crisp fried vegetable balls are dunked in slightly sweet, sour and hot Manchurian sauce",
+                              "imageId": "dai5uznljcfjsp31sryy",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "28 ratings",
+                                  "ratingCountV2": "28"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560451",
+                              "name": "Chilli Paneer",
+                              "category": "Starters (Chinese)",
+                              "description": "Chilli paneer is an Indo-Chinese appetizer where crisp batter fried paneer is tossed in slightly sweet, spicy, hot and sour Chilli Sauce.",
+                              "imageId": "akrwopywzxxlmnr3ns1w",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.3",
+                                  "ratingCount": "54 ratings",
+                                  "ratingCountV2": "54"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560453",
+                              "name": "Chilli Lollipop",
+                              "category": "Starters (Chinese)",
+                              "description": "A delightful Chinese starter featuring a burst of flavors in a savory and tangy sauce.",
+                              "imageId": "xxmf8lpm20f94wzzirso",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954117",
+                              "name": "Schezwan Rice  ",
+                              "category": "Fried Rice",
+                              "description": "A wholesome dish with the aromatic Schezwan rice prepared with assorted fresh veggies and flavor-packed masalas - perfect to satiate your apetite.",
+                              "imageId": "nyrb87flnlerxosdowkc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560444",
+                              "name": "Veg Manchurian Fried Rice  ",
+                              "category": "Fried Rice",
+                              "description": "A deliciously aromatic dish made from stir-fried mixed vegetables and aromatic rice tossed in a sweet and spicy manchurian sauce.",
+                              "imageId": "cpi7atwzmhpgena6z1wp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "108 ratings",
+                                  "ratingCountV2": "108"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954121",
+                              "name": "Masala Paneer Rice",
+                              "category": "Fried Rice",
+                              "description": "A flavorful and aromatic fried rice dish filled with tender paneer and a medley of Indian spices.",
+                              "imageId": "kivd3fnvug0oijqb5xwk",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967375",
+                              "name": "Veg Fried Rice                             ",
+                              "category": "Fried Rice",
+                              "description": "A deliciously aromatic and flavorful dish prepared from rice and stir-fried vegetables.",
+                              "imageId": "e6fzu6p0g3gkyg3qfhvq",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967340",
+                              "name": "Masala Corn  ",
+                              "category": "Corns",
+                              "description": "A flavorful and mouthwatering vegetarian corn dish that will tantalize your taste buds.\r\n",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/135969ae-5599-4e99-8f31-ce81551bc21d_5d6707ed-585b-46bc-983b-1e4699e2395e.JPG",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED",
+                      "subtitleSuffix": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Starters (Chinese)",
+                      "categories": [
+                        {
+                          "title": "Veg Momos",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560422",
+                                  "name": "Tawa Chilli With Butter Momos ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Deliciously sauteed momos with a rich buttery twist, perfect for a flavorful start to your meal.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.5",
+                                      "ratingCount": "12 ratings",
+                                      "ratingCountV2": "12"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64953592",
+                                  "name": "Tawa Butter Momos ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Crispy dumplings filled with a delectable vegetarian filling, enhanced with a rich buttery flavor, seared perfectly on a traditional Tawa to create a sensational Chinese starter.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64954028",
+                                  "name": "Steam Gravy Momos ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delight in the succulence of our delectable steamed vegetable dumplings smothered in a flavorsome gravy.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64954104",
+                                  "name": "Fried Gravy Momos ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "In a pan, add them along with star anise, garlic and ginger. Fry them on a high flame and add sauces of red chilli, green chilli, soya sauce",
+                                  "imageId": "falfkqkesmztsxdfi10t",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.5",
+                                      "ratingCount": "8 ratings",
+                                      "ratingCountV2": "8"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560418",
+                                  "name": "Veg Fried Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Veg Fried Momos are crispy & delicious deep-fried dumplings made of plain flour stuffed with crunchy & mildly spiced vegetables.",
+                                  "imageId": "7bdc9f930cac07923c252cc1cf7229ed",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 7600,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.1",
+                                      "ratingCount": "397 ratings",
+                                      "ratingCountV2": "397"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96968412",
+                                  "name": "Fried Chilli Momos ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "In a pan, add them along with star anise, garlic and ginger. Fry them on a high flame and add sauces of red chilli, green chilli, soya sauce",
+                                  "imageId": "kf9bbtt8to6ceel0zyxp",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "23 ratings",
+                                      "ratingCountV2": "23"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "130388008",
+                                  "name": "Tandoori momo ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Mouthwatering Chinese-style veggie dumplings with a tantalizing smoky flavor.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/9/51f178ff-1e89-48ce-a772-6fed3cb2526f_9dc387b0-ed2a-4d2e-b99e-ea12e4617b10.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9000,
+                                  "variants": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "35710592",
+                                        "name": "6 pcs",
+                                        "variations": [
+                                          {
+                                            "name": "Tandoori momo half ",
+                                            "price": 9000,
+                                            "default": 1,
+                                            "id": "110843247",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Full ",
+                                            "price": 18000,
+                                            "id": "110843248",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560420",
+                                  "name": "Fry Chilli Butter Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "In a pan, add butter them along with star anise, garlic and ginger. Fry them on a high flame and add sauces of red chilli, green chilli, soya sauce",
+                                  "imageId": "wq0dm1ta3wp4c6algxag",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "38 ratings",
+                                      "ratingCountV2": "38"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64954106",
+                                  "name": "Tawa Gravy Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicately steamed dumplings enveloped in a luscious, flavorsome gravy, perfect for a tantalizing start to your Chinese feast.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560417",
+                                  "name": "Veg Steam Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "A delicious steamed dumpling stuffed with sauteed mixed vegetables.",
+                                  "imageId": "yzl2ybyafchbrhsrzg46",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 6200,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "423 ratings",
+                                      "ratingCountV2": "423"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560419",
+                                  "name": "Steam Chilli Momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Veg momo prepared with fresh veggies, chillies and steamed to perfection; served along with a flavorful chutney.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/28/cd06f31e-da0f-419b-aded-e4736b62083b_324e6541-3a5f-4e52-b173-c6b5058f2835.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.9",
+                                      "ratingCount": "151 ratings",
+                                      "ratingCountV2": "151"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560421",
+                                  "name": "Tawa Chilli Momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicious Chinese-style dumplings served with a tantalizingly flavorful sauce.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/21034e14-421b-4918-92bb-c854e1c8067f_7b8c582a-5ec4-4bb2-8000-1f6b5eb55d44.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.3",
+                                      "ratingCount": "20 ratings",
+                                      "ratingCountV2": "20"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560423",
+                                  "name": "Tawa Momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicious Chinese-style veggie dumplings, perfect for a tantalizing start to your meal.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 6000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96968414",
+                                  "name": "Steam Chilli Butter Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicious steamed momos filled with a flavorful buttery filling that will melt in your mouth.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96968416",
+                                  "name": "Chilli Garlic Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "A savory and flavorful Chinese starter bursting with bold garlic flavors.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/30/c4a15963-75c1-457c-a39f-35873dcd12d4_4fad4f8b-33d5-4c94-81e3-b3014e9c03bf.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96968417",
+                                  "name": "Ginger Garlic Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicious Chinese starters infused with the aromatic flavors of ginger and garlic.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/1/433ec591-8fe6-40d3-86e0-5bcdc3ddb9fe_9d3cd98b-f10e-40b6-8dfa-657518273a39.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133533066",
+                                  "name": "Tandoori Fry Momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Crispy and flavorful, this Chinese-style starter tantalizes with its succulent and aromatic vegetable filling.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/30/ec0697b3-a028-47ea-9303-ff2b2e447b03_8d6a8a70-8ce0-4f71-9f00-6db59ad8191f.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "5 ratings",
+                                      "ratingCountV2": "5"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133533067",
+                                  "name": "Tandoori Chilli Momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Savor the tantalizing flavors of this flavorful Chinese starter, perfectly marinated and cooked to perfection with a unique twist.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 12000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133559359",
+                                  "name": "Kurkure Momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Crispy and flavorful Chinese starters with a delightful surprise inside.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/9/f66db30d-6e19-4711-8133-a4ab0071bc25_07203a20-5884-4f8f-9dc9-5816017e7525.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "10 ratings",
+                                      "ratingCountV2": "10"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133559363",
+                                  "name": "Honey Chilli Momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delight in the delectable blend of tangy sweetness that graces this vegetarian Chinese starter.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/1/4a30bec6-925d-4b36-b1a7-ebe3cd396510_34cbd34e-f284-40c1-ab08-9eeef4186cbb.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {}
+                        },
+                        {
+                          "title": "Veg",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560447",
+                                  "name": "Veg Manchurian                                           ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Deep-fried, assorted veggies tossed in a thik and spicy Manchurian sauce.",
+                                  "imageId": "lno2w1usb6yodfeinrf6",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9000,
+                                  "variants": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "3581317",
+                                        "name": "Quantity",
+                                        "variations": [
+                                          {
+                                            "name": "Half",
+                                            "default": 1,
+                                            "id": "11801761",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Full",
+                                            "price": 8500,
+                                            "id": "11801762",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.7",
+                                      "ratingCount": "99 ratings",
+                                      "ratingCountV2": "99"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560448",
+                                  "name": "Chilli Manchurian",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Veg Manchurian is an Indian-Chinese appetizer where crisp fried vegetable balls are dunked in slightly sweet, sour and hot Manchurian sauce",
+                                  "imageId": "dai5uznljcfjsp31sryy",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.1",
+                                      "ratingCount": "28 ratings",
+                                      "ratingCountV2": "28"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133531479",
+                                  "name": "Paneer Tikka                  ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicious Chinese-style vegetarian starter bursting with flavors and textures.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/30/7cf45de7-e297-4c31-8ed4-e040b49de5cb_bee5876b-e8cc-4c80-8f84-7699ccfbc8ff.JPG",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560451",
+                                  "name": "Chilli Paneer",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Chilli paneer is an Indo-Chinese appetizer where crisp batter fried paneer is tossed in slightly sweet, spicy, hot and sour Chilli Sauce.",
+                                  "imageId": "akrwopywzxxlmnr3ns1w",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "2.3",
+                                      "ratingCount": "54 ratings",
+                                      "ratingCountV2": "54"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560453",
+                                  "name": "Chilli Lollipop",
+                                  "category": "Starters (Chinese)",
+                                  "description": "A delightful Chinese starter featuring a burst of flavors in a savory and tangy sauce.",
+                                  "imageId": "xxmf8lpm20f94wzzirso",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "8 ratings",
+                                      "ratingCountV2": "8"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133559118",
+                                  "name": "Soya Chilli",
+                                  "category": "Starters (Chinese)",
+                                  "description": "A delectable Chinese starter infused with a burst of flavors, perfect for vegetarian food lovers.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133991351",
+                                  "name": "Pepper Paneer Chilli",
+                                  "category": "Starters (Chinese)",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 15000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "138759548",
+                                  "name": "Lollipop",
+                                  "category": "Starters (Chinese)",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 12000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {}
+                        },
+                        {
+                          "title": "Paneer Momos",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560425",
+                                  "name": "Fried Paneer Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Serves 1 | Crispy and golden fried dumplings filled with delicate paneer, perfect for a flavorful start to your Chinese meal.",
+                                  "imageId": "bc00vg6aj12uuyayskcb",
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.9",
+                                      "ratingCount": "101 ratings",
+                                      "ratingCountV2": "101"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560432",
+                                  "name": "Fried Paneer Gravy Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "In a pan, add them along with star anise, garlic and ginger. Fry them on a high flame and add sauces of red chilli, green chilli, soya sauce",
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64954111",
+                                  "name": "Tawa Paneer Butter Momos ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Deliciously succulent and buttery, this Chinese-inspired vegetarian starter showcases perfectly grilled paneer dumplings infused with irresistible flavors.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/27dd38e3-78eb-4385-b740-11b30f7cc39a_f3e747f7-463f-4223-a7df-3658ed2afce5.JPG",
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.5",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96968420",
+                                  "name": "Honey Chilli Paneer Momos ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicious and flavorful golden-brown dumplings bursting with sweet honey and a touch of tangy goodness.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/1/f899cf95-9802-4687-aa02-4399596c6035_84bacec0-6f23-4be6-b698-e9c5d3092848.JPG",
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560426",
+                                  "name": "Steam Paneer Chilli Momo ",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Steamed dumplings filled with tender paneer in a flavorful Chinese-style sauce.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/8/fff05b60-4d8a-44b6-96e2-7903939a821c_06d13764-0220-41ef-a62e-77465d4b35ee.JPG",
+                                  "isVeg": 1,
+                                  "price": 12000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "38 ratings",
+                                      "ratingCountV2": "38"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64954112",
+                                  "name": "Tawa Paneer Gravy Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Savor the delectable blend of succulent paneer, aromatic gravy, and a tantalizing Tawa char, all encased within delicate momos for an irresistible start to your meal.",
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64954110",
+                                  "name": "Tawa Paneer Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Savor the perfect blend of soft paneer and savory flavors with our delectable Tawa Paneer Momos, a delightful Chinese starter.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/28/a67d117b-a80c-459b-9317-87d9b56afcbf_54516fc5-669d-4d3d-9982-989c040b1d28.JPG",
+                                  "isVeg": 1,
+                                  "price": 12000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "4 ratings",
+                                      "ratingCountV2": "4"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "64954108",
+                                  "name": "Fried Paneer Chilli Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Crispy fried dumplings with a flavorful paneer filling, perfect to kickstart your Chinese feast.",
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560424",
+                                  "name": "Steamed Paneer Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delicate pockets of steamed paneer, bursting with rich flavors and luscious textures, perfect to kickstart your Chinese feast.",
+                                  "imageId": "mmcwtzgb5rbyfhcfznl3",
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "63 ratings",
+                                      "ratingCountV2": "63"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560427",
+                                  "name": "Tawa Paneer Chilli Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delight in these delectable, flavorful Chinese-style veggie dumplings, sauteed to perfection with an aromatic paneer filling.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/8/641835b3-4375-4c8e-b8d5-7e3aa6ad274d_ed8583f5-03d4-41bd-8970-c62042014db4.JPG",
+                                  "isVeg": 1,
+                                  "price": 14000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.9",
+                                      "ratingCount": "10 ratings",
+                                      "ratingCountV2": "10"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560428",
+                                  "name": "Tawa Paneer Chilli With Butter",
+                                  "category": "Starters (Chinese)",
+                                  "description": "A flavorful Chinese-inspired starter featuring succulent paneer cooked in butter on a sizzling tawa.",
+                                  "isVeg": 1,
+                                  "price": 15000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "2.8",
+                                      "ratingCount": "14 ratings",
+                                      "ratingCountV2": "14"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "36560431",
+                                  "name": "Steam Paneer Gravy Momos",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delight in the savory charm of tender paneer enveloped in delicate steamed dumplings, drenched in luscious gravy-a tantalizing Chinese starter that promises irresistible flavors.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/28/1fc9f4b3-fc7e-428d-a2a6-a4250e524251_9ce95a73-c974-4c83-8310-18abed7379d7.JPG",
+                                  "isVeg": 1,
+                                  "price": 13000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.4",
+                                      "ratingCount": "7 ratings",
+                                      "ratingCountV2": "7"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96968423",
+                                  "name": "Fried Paneer Chilli Momos With Butter",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delight in crispy and savory Chinese-style fried dumplings filled with succulent paneer, served with a luscious buttery twist.",
+                                  "isVeg": 1,
+                                  "price": 14000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96968424",
+                                  "name": "Steam Paneer Chilli Momo With Butter",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Delight in the enticing flavors of fluffy steamed paneer momos, filled with a savory blend, and topped with a generous drizzle of butter.",
+                                  "isVeg": 1,
+                                  "price": 14000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133559375",
+                                  "name": "Tandoori fry chilli momo",
+                                  "category": "Starters (Chinese)",
+                                  "description": "Deliciously seasoned momos, fried to perfection in a tandoori oven, bursting with tantalizing flavors.",
+                                  "isVeg": 1,
+                                  "price": 16000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Fried Rice",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560443",
+                              "name": "Paneer Fried Rice            ",
+                              "category": "Fried Rice",
+                              "description": "A delightfully delicious combo of paneer fried rice served with gobi Manchurian and refreshing soda.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/28/f3de2df9-bff0-4b75-8754-097351f5d6bf_656fc0a6-b279-469a-9704-c74fb0f7a37f.JPG",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133706734",
+                              "name": "Schezwan Manchurian Rice ",
+                              "category": "Fried Rice",
+                              "description": "A tantalizing fusion of flavors blending aromatic spices with veggies in a delectable fried rice creation.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954117",
+                              "name": "Schezwan Rice  ",
+                              "category": "Fried Rice",
+                              "description": "A wholesome dish with the aromatic Schezwan rice prepared with assorted fresh veggies and flavor-packed masalas - perfect to satiate your apetite.",
+                              "imageId": "nyrb87flnlerxosdowkc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560444",
+                              "name": "Veg Manchurian Fried Rice  ",
+                              "category": "Fried Rice",
+                              "description": "A deliciously aromatic dish made from stir-fried mixed vegetables and aromatic rice tossed in a sweet and spicy manchurian sauce.",
+                              "imageId": "cpi7atwzmhpgena6z1wp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "108 ratings",
+                                  "ratingCountV2": "108"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954121",
+                              "name": "Masala Paneer Rice",
+                              "category": "Fried Rice",
+                              "description": "A flavorful and aromatic fried rice dish filled with tender paneer and a medley of Indian spices.",
+                              "imageId": "kivd3fnvug0oijqb5xwk",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967375",
+                              "name": "Veg Fried Rice                             ",
+                              "category": "Fried Rice",
+                              "description": "A deliciously aromatic and flavorful dish prepared from rice and stir-fried vegetables.",
+                              "imageId": "e6fzu6p0g3gkyg3qfhvq",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133559117",
+                              "name": "Soya Rice",
+                              "category": "Fried Rice",
+                              "description": "Delicious and flavorful fried rice infused with the richness of soya.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Corns",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967321",
+                              "name": "Chilli Corn",
+                              "category": "Corns",
+                              "description": "A flavorful and tempting veg option featuring a delightful combination of corn and a zesty twist.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967340",
+                              "name": "Masala Corn  ",
+                              "category": "Corns",
+                              "description": "A flavorful and mouthwatering vegetarian corn dish that will tantalize your taste buds.\r\n",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/135969ae-5599-4e99-8f31-ce81551bc21d_5d6707ed-585b-46bc-983b-1e4699e2395e.JPG",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967344",
+                              "name": "Crispy Corn",
+                              "category": "Corns",
+                              "description": "Golden corn kernels fried to perfection, offering a crunchy and delightful treat for any corn lover.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/1/24c31098-212a-43db-a5ef-b493fff38f3e_bd3b9d59-c7a1-4b26-a0b1-97665196dcab.JPG",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133533049",
+                              "name": "Butter Corn",
+                              "category": "Corns",
+                              "description": "Crispy corn with butter ",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Newly Launched Platters",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133559401",
+                              "name": "Tandoori Momo Platter",
+                              "category": "Newly Launched Platters",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 20000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133708231",
+                              "name": "Veg Momo Platter",
+                              "category": "Newly Launched Platters",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144192749",
+                              "name": "Tandoori cheese momo platter",
+                              "category": "Newly Launched Platters",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Cheese momo",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144192753",
+                              "name": "Cheese Steam Momo",
+                              "category": "Cheese momo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "145297532",
+                              "name": "Cheese fry momo",
+                              "category": "Cheese momo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156090661",
+                              "name": "Fry cheese momo",
+                              "category": "Cheese momo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156090663",
+                              "name": "Cheese chilli momo",
+                              "category": "Cheese momo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156090667",
+                              "name": "Steam cheese chilli momo",
+                              "category": "Cheese momo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Noodles",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560437",
+                              "name": "Veg Hakka Noodles                         ",
+                              "category": "Noodles",
+                              "description": "A delectable dish with slippery strands of noodles dressed in a flavorful sauce and tossed along with veggies and spices.",
+                              "imageId": "qa8tzfbo41wr3yfovsng",
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "3581308",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "11801743",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 6000,
+                                        "id": "11801744",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.7",
+                                  "ratingCount": "32 ratings",
+                                  "ratingCountV2": "32"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560438",
+                              "name": "Veg Schezwan Noodles         ",
+                              "category": "Noodles",
+                              "description": "A flavorful combination of savory and tangy noodles that will satisfy your cravings and leave you asking for more.",
+                              "imageId": "h9hea8viwwfhlvhgqhbm",
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "3581309",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "11801745",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 7400,
+                                        "id": "11801746",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560439",
+                              "name": "Chilli Garlic Noodles       ",
+                              "category": "Noodles",
+                              "description": "Flavor-packed preparation with noodles and assorted vegetables in a spicy and aromatic chilli garlic sauce.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/8/832abb4f-5b80-48cb-a1cd-0f5e5e73029a_c97f282f-9ced-4dba-9634-c1423d7c961f.JPG",
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "3581310",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "11801747",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 7400,
+                                        "id": "11801748",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "16 ratings",
+                                  "ratingCountV2": "16"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967376",
+                              "name": "Masala Mix Noodles ",
+                              "category": "Noodles",
+                              "description": "A tantalizing blend of flavors combined with tender noodles, creating a delightful vegetarian dish that is sure to please.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/1/90353e67-c373-4f04-a928-8e4c53983298_0a833ab8-09b8-49ac-8aa1-f9bbb556d742.JPG",
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "17383961",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "58216736",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 9100,
+                                        "id": "58216737",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954114",
+                              "name": "Manchurian Mix Noodles ",
+                              "category": "Noodles",
+                              "description": "A delectable blend of flavors and textures, this noodle dish offers a tantalizing mix of vegetables in a delightful sauce.",
+                              "imageId": "qdiu2ds9g47u02rtlyhg",
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "9098625",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "30138858",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 7000,
+                                        "id": "30138859",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "30 ratings",
+                                  "ratingCountV2": "30"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967377",
+                              "name": "Plain Noodles ",
+                              "category": "Noodles",
+                              "description": "A simple and delectable vegetarian delight from the world of noodles.",
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "17383962",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "58216738",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 8500,
+                                        "id": "58216739",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133991454",
+                              "name": "Pepper Noodles ",
+                              "category": "Noodles",
+                              "description": "A savory and delectable noodle dish bursting with flavors of freshly ground pepper and delectable seasonings.",
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954113",
+                              "name": "Veg Noodles                                  ",
+                              "category": "Noodles",
+                              "description": "A deliciously aromatic and flavorful dish made from perfectly cooked noodles and stir-fried vegetables.",
+                              "imageId": "ew0nwcaxmn5ifrmhzdqm",
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "9098624",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "30138856",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 8500,
+                                        "id": "30138857",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "18 ratings",
+                                  "ratingCountV2": "18"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560436",
+                              "name": "Paneer Noodles",
+                              "category": "Noodles",
+                              "description": "A delightfully delicious combo of paneer noodles served with gobi Manchurian and refreshing soda.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/9/1732c62d-093b-4d6c-8fae-16568387f649_909f9c8d-436a-4e84-b5b9-0c208646db12.JPG",
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "3581307",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "11801741",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 9500,
+                                        "id": "11801742",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "11 ratings",
+                                  "ratingCountV2": "11"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133559324",
+                              "name": "Soya Noodles ",
+                              "category": "Noodles",
+                              "description": "Delight in a flavorful medley of noodles and vegetables in this delectable, meat-free dish.",
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560440",
+                              "name": "Mixed Veg Triple Noodles",
+                              "category": "Noodles",
+                              "description": "A delectable medley of noodles brimming with colorful vegetables, delivering lip-smacking flavors.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/2e4f691f-8218-48e3-9cc5-8ebbcb5a9404_5a58e6a1-af00-4314-83bd-d5a602720387.JPG",
+                              "isVeg": 1,
+                              "price": 10800,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "3581311",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "11801749",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 7000,
+                                        "id": "11801750",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "30 ratings",
+                                  "ratingCountV2": "30"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "133559329",
+                              "name": "Chilli Noodles",
+                              "category": "Noodles",
+                              "description": "A zesty combination of flavors intertwined with fresh herbs and aromatic spices, truly a delectable delight for noodle lovers.",
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Pasta/Maggi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560460",
+                              "name": "Maggi Masala ",
+                              "category": "Pasta/Maggi",
+                              "description": "A flavorful and savory veggie pasta that will satisfy your taste buds.",
+                              "imageId": "ztwltisf20qglte9p2hc",
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.8",
+                                  "ratingCount": "9 ratings",
+                                  "ratingCountV2": "9"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954278",
+                              "name": "Maggi Butter Masala ",
+                              "category": "Pasta/Maggi",
+                              "description": "Creamy and luscious, this buttery vegetarian pasta dish is a delightful blend of flavors and textures.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/1/4f78057a-35af-471b-8922-6e1ae03cce2c_459fbd37-249a-48fd-b439-caf7cc8ed868.JPG",
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96967350",
+                              "name": "Schezwan Maggi ",
+                              "category": "Pasta/Maggi",
+                              "description": "A comfort food for every Indian, Maggi prepared with Schezwan masalas - perfect meal to satiate your hunger.",
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64954286",
+                              "name": "Maggi Paneer",
+                              "category": "Pasta/Maggi",
+                              "description": "Creamy and flavorful, this indulgent pasta dish combines the richness of paneer with the comforting goodness of Maggi noodles.",
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36560459",
+                              "name": "Maggi Sada",
+                              "category": "Pasta/Maggi",
+                              "description": "A delectable vegetarian delight from the realm of pasta goodness, renowned for its mouthwatering flavor.",
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 5 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 21415210000671"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Mr. Gurung Momo & Chinese Corner",
+                      "area": "Mohan Nagar",
+                      "completeAddress": "Main Road Priyadarshini Colony Chhindwara Priyadarshini Colony, Madhya Pradesh 480225"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "1b169216-5434-4fee-b5de-a7f668c7928e",
+  "sid": "i6mc56f5-bd42-48bf-b946-34b64f0557e6",
+  "deviceId": "23563548-47b1-2bda-eeb6-9ffdcced7f23",
+  "csrfToken": "P9O8kLJgfitr-8CCg2DSUuseXsr8_NT65M8yV9e8"
+}

@@ -1,4 +1,4 @@
-import Restaurant from "./Restaurant";
+import Restaurant, { restaurantWithPromotedLabel } from "./Restaurant";
 import Skimmer from "./Skimmer";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
@@ -9,6 +9,8 @@ export default Body = () => {
   const [filterData, setFilterData] = useState([]);
 
   const { resData, isLoading } = useResData();
+
+  const RestaurantWithPromotedLabel = restaurantWithPromotedLabel(Restaurant);
 
   useEffect(() => {
     if (!isLoading) {
@@ -43,6 +45,7 @@ export default Body = () => {
       <button
         className="bg-yellow-100 my-5 mx-5 rounded-lg border-2 p-1"
         onClick={handleTopRatedBtnEvent}
+        data-testid="topRatedRestaurantBtn"
       >
         Top rated restaurants
       </button>
@@ -58,28 +61,29 @@ export default Body = () => {
         className="border-2 rounded-lg p-1"
         value={searchText}
         onChange={handleOnChangeEvent}
+        data-testid="searchInputText"
       />
       <button
         className="bg-green-300 mx-5 rounded-lg border-2 p-1"
         onClick={handleSearchBtnEvent}
+        data-testid = "searchBtn"
       >
         Search
       </button>
-      <div className="flex flex-wrap justify-between gap-2">
+      <div className="flex flex-wrap justify-evenly gap-4">
         {filterData.map((res) => {
           return (
             <Link to={"/restaurant-menu/" + res.info.id} key={res.info.id}>
-              <Restaurant
-                name={res.info.name}
-                image={res.info.cloudinaryImageId}
-                cuisines={res.info.cuisines.join(",")}
-                rating={res.info.avgRating}
-                cost={res.info.costForTwo}
-              />
+              {res.info.aggregatedDiscountInfoV3 ? (
+                <RestaurantWithPromotedLabel resData={res} />
+              ) : (
+                <Restaurant resData={res} />
+              )}
             </Link>
           );
         })}
       </div>
+       <Footer />
     </>
   );
 };

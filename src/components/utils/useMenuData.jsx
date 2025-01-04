@@ -5,7 +5,8 @@ import { useEffect, useState } from "react";
 const useMenuData = (resId) => {
   const navigate = useNavigate();
   const [menuData, setMenuData] = useState(null);
-  const [recommendedMenuItems, setRecommendedMenuItems] = useState(null);
+  // const [recommendedMenuItems, setRecommendedMenuItems] = useState(null);
+  const [itemCategoryCards, setItemCategoryCards] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -29,22 +30,21 @@ const useMenuData = (resId) => {
       const menuItemCards =
         jsonData?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
 
-      const recommendedItems = menuItemCards
-        .filter(
-          (res) =>
-            res.card.card.itemCards && res.card.card.title === "Recommended"
-        )
-        .map((items) => items.card.card.itemCards)
-        .flat();
+      const itemCategories = menuItemCards.filter(
+        (c) =>
+          c?.card?.card?.["@type"] ===
+          "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+      );
+
       setMenuData(jsonData?.data?.cards[2]?.card?.card);
-      setRecommendedMenuItems(recommendedItems);
+      setItemCategoryCards(itemCategories);
     } catch (error) {
       navigate("/internal-server");
     } finally {
       setIsLoading(false);
     }
   };
-  return { menuData, recommendedMenuItems, isLoading };
+  return { menuData, itemCategoryCards, isLoading };
 };
 
 export default useMenuData;

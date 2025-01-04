@@ -1,0 +1,75 @@
+{
+  "info": {
+    "id": "1003414",
+    "name": "Pizza Hut",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/5/dc74a4b7-8d63-4eb7-91c9-048973c2cc99_1003414.jpg",
+    "locality": "Chhindwara",
+    "areaName": "Parasia Road",
+    "costForTwo": "₹350 for two",
+    "cuisines": ["Pizzas"],
+    "avgRating": 3.2,
+    "parentId": "721",
+    "avgRatingString": "3.2",
+    "totalRatingsString": "6",
+    "sla": {
+      "deliveryTime": 65,
+      "lastMileTravel": 12.8,
+      "serviceability": "SERVICEABLE",
+      "slaString": "60-65 mins",
+      "lastMileTravelString": "12.8 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2025-01-04 23:00:00",
+      "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {},
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "₹300 OFF",
+      "subHeader": "ABOVE ₹1699",
+      "discountTag": "FLAT DEAL"
+    },
+    "orderabilityCommunication": {
+      "title": {},
+      "subTitle": {},
+      "message": {},
+      "customIcon": {}
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "isNewlyOnboarded": true,
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+      "aggregatedRating": {
+        "rating": "--"
+      }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {
+    "context": "seo-data-e1b77dc1-a88e-4cf2-9148-ab6e9a1d4055"
+  },
+  "cta": {
+    "link": "https://www.swiggy.com/city/chhindwara/pizza-hut-parasia-road-rest1003414",
+    "text": "RESTAURANT_MENU",
+    "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

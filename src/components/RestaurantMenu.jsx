@@ -1,39 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import Skimmer from "./Skimmer";
 import useMenuData from "./utils/useMenuData";
+import RestaurantCategory from "./RestaurantCategory";
 
 export default RestaurantMenu = () => {
   const { resId } = useParams();
 
-  const { menuData, recommendedMenuItems, isLoading } = useMenuData(resId);
+  const [itemIndex, setItemIndex] = useState(null);
+
+  const { menuData, itemCategoryCards, isLoading } = useMenuData(resId);
+
+  const handleItemIndex = (index)=>{
+    if(index === itemIndex){
+      setItemIndex(null);
+    }else{
+      setItemIndex(index);
+    }
+  }
 
   if (
     isLoading ||
     menuData === null ||
     menuData === undefined ||
-    recommendedMenuItems === null ||
-    recommendedMenuItems === undefined
+    itemCategoryCards === null ||
+    itemCategoryCards === undefined
   ) {
     return <Skimmer />;
   }
 
   return (
-    <div>
-      <h4>{menuData?.info?.name}</h4>
+    <div className="text-center">
+      <h1 className="font-bold my-6 text-2xl">{menuData?.info?.name}</h1>
       <p>
-        {menuData?.info?.avgRatingString} {"\u2605"} (
-        {menuData?.info?.totalRatings}) - {menuData?.info?.costForTwoMessage}
+        {menuData?.info?.cuisines.join(", ")} -
+        {menuData?.info?.costForTwoMessage}
       </p>
-      <h4>Recommended Items</h4>
-      {recommendedMenuItems?.map((items) => {
-        return (
-          <ul key={items?.card?.info?.id}>
-            <li>{items?.card?.info?.name}</li>
-            <li>{items?.card?.info?.price / 100} .rs</li>
-          </ul>
-        );
-      })}
+      {itemCategoryCards.map((category, index) => (
+        <RestaurantCategory
+          key={category?.card?.card?.title}
+          data={category?.card?.card}
+          isVisible={index === itemIndex ? true : false}
+          setItemIndex={() => handleItemIndex(index)}
+          index={index}
+        />
+      ))}
     </div>
   );
 };

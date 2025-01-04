@@ -5,10 +5,13 @@ import React from "react";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { Error } from "./src/components/Error";
 import { Contact } from "./src/components/Contact";
-import { Cart } from "./src/components/Cart";
 import Navbar from "./src/components/Navbar";
 import Footer from "./src/components/Footer";
 import { InternalServerError } from "./src/components/InternalServerError";
+import UserContext from "./src/components/utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./src/components/store/appStore";
+import CartItems from "./src/components/CartItems";
 
 const AboutUs = lazy(() => import("./src/components/AboutUs"));
 const RestaurantMenu = lazy(() => import("./src/components/RestaurantMenu"));
@@ -16,9 +19,12 @@ const RestaurantMenu = lazy(() => import("./src/components/RestaurantMenu"));
 const RootContainer = () => {
   return (
     <>
-      <Navbar />
-      <Outlet />
-      <Footer />
+    <Provider store={appStore}>
+      <UserContext.Provider value={{ userName: "Vaibhav" }}>
+        <Navbar />
+        <Outlet />
+      </UserContext.Provider>
+      </Provider>
     </>
   );
 };
@@ -44,7 +50,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/cart",
-        element: <Cart />,
+        element: <CartItems />,
       },
       {
         path: "/restaurant-menu/:resId",

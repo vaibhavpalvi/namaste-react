@@ -15,7 +15,6 @@ const useResData = () => {
     try {
       const data = await fetch(SWIGGY_FETCH_RES_UR);
       const jsonData = await data.json();
-
       const resDataFromApi =
         jsonData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants;
@@ -26,14 +25,11 @@ const useResData = () => {
 
       setResData(resDataFromApi || resDataFromApiWithDiffCardsArrayVal);
     } catch (error) {
-      console.error(error);
-      
       navigate("/internal-server");
     } finally {
       setIsLoading(false);
     }
   };
-  console.log("resData", resData);
 
   return { resData, isLoading };
 };
